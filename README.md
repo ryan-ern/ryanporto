@@ -14,6 +14,9 @@ Tugas 3 Pemrograman Web Lanjut mencakup:
 - jalankan proyek dengan yarn dev atau npm dev
 - jalankan testing dengan yarn test atau npm test
 
+## Ingin Lihat hasilnya?
+[klik disini](https://ryan-ern.github.io/ryanporto/), Hasilnya lebih maksimal jika dijalankan pada localserver
+
 ## Pembahasan
 - Membuat 3 komponen (Header, MainContent, Footer)
 
