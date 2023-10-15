@@ -84,7 +84,7 @@ function MessageList() {
             <h3>Result</h3>
             <Row xs={1} md={2} lg={3} className="g-4">
                 {messages.map((message, index) => (
-                    <Col key={index} className="text-center bg-dark pb-3 pt-2" style={{borderRadius: '12px'}}>
+                    <Col key={index} className="text-center bg-dark pb-3 pt-2 mx-2" style={{borderRadius: '12px'}}>
                         <p>{message.text}</p>
                         {message.image && <Image src={URL.createObjectURL(message.image)}  style={{ maxWidth: '300px', maxHeight: '300px' }} />}
                     </Col>
