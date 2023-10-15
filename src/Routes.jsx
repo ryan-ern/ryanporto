@@ -17,19 +17,19 @@ export default function RoutesApp() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="" element={<Welcome />} />
-                <Route path="/panel" element={(
+                <Route path="/ryanporto" element={<Welcome />} />
+                <Route path="/ryanporto/panel" element={(
                     <Username>
                         <Layout />
                     </Username>
                 )}>
                     <Route index element={<Home />} />
-                    <Route path="/panel/api/news" element={<News />} />
-                    <Route path="/panel/projects" element={<Projects />} />
-                    <Route path="/panel/contact" element={<Contacts />} />
+                    <Route path="/ryanporto/panel/api/news" element={<News />} />
+                    <Route path="/ryanporto/panel/projects" element={<Projects />} />
+                    <Route path="/ryanporto/panel/contact" element={<Contacts />} />
                 </Route>
                 {/* Not Found */}
-                <Route path="/404" element={<Page404 />} />
+                <Route path="/ryanporto/404" element={<Page404 />} />
                 <Route path="*" element={<Page404 />} />
             </Routes>
         </BrowserRouter>

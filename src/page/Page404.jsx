@@ -13,7 +13,7 @@ export default function Page404() {
                 </h1>
                 <h4 className="text-uppercase text-white">Maaf, halaman tidak ditemukan !</h4>
                 <div className="mt-5 text-center">
-                    <Link className="btn btn-outline-primary" to={`${storedName ? '/panel' : '/'}`}>
+                    <Link className="btn btn-outline-primary" to={`${storedName ? '/ryanporto/panel' : '/ryanporto'}`}>
                         <span>Go Back</span>
                     </Link>
                 </div>

@@ -50,25 +50,25 @@ export default function Navigation() {
                     <Nav className="ms-auto" id="navigation">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/panel" className='nav-link'>Home</Link>
+                                <Link to="/ryanporto/panel" className='nav-link'>Home</Link>
                             </li>
                         </ul>
 
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/panel/projects" className='nav-link'>Whatever I&apos;ve made</Link>
+                                <Link to="/ryanporto/panel/projects" className='nav-link'>Whatever I&apos;ve made</Link>
                             </li>
                         </ul>
 
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/panel/api/news" className='nav-link'>New&apos;s</Link>
+                                <Link to="/ryanporto/panel/api/news" className='nav-link'>New&apos;s</Link>
                             </li>
                         </ul>
 
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/panel/contact" className='nav-link'>Contact</Link>
+                                <Link to="/ryanporto/panel/contact" className='nav-link'>Contact</Link>
                             </li>
                         </ul>
                     </Nav>

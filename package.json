@@ -3,15 +3,19 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://ryan-ern.github.io/ryanporto/",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d dist",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
     "dependencies": {
         "axios": "^1.5.1",
         "bootstrap": "^5.3.2",
+        "gh-pages": "^6.0.0",
         "react": "^18.2.0",
         "react-bootstrap": "^2.9.0",
         "react-dom": "^18.2.0",

@@ -8,19 +8,19 @@ export default function Projects() {
                     <Card.Header>
                         <Carousel>
                             <Carousel.Item>
-                                <Image src="/P1.png"  fluid />
+                                <Image src="P1.png" fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/P1(2).png"   fluid />
+                                <Image src="P1(2).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/P1(3).png"   fluid />
+                                <Image src="P1(3).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/P1(4).png"   fluid  />
+                                <Image src="P1(4).png"   fluid  />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/P1(5).png"   fluid />
+                                <Image src="P1(5).png"   fluid />
                             </Carousel.Item>
                         </Carousel>
                     </Card.Header>
@@ -42,13 +42,13 @@ export default function Projects() {
                     <Card.Header>
                         <Carousel>
                             <Carousel.Item>
-                                <Image src="/p2 (1).png"   fluid />
+                                <Image src="p2 (1).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/p2 (2).png"   fluid />
+                                <Image src="p2 (2).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/p2 (3).png"   fluid />
+                                <Image src="p2 (3).png"   fluid />
                             </Carousel.Item>
                         </Carousel>
                     </Card.Header>
@@ -70,13 +70,13 @@ export default function Projects() {
                     <Card.Header>
                         <Carousel>
                             <Carousel.Item>
-                                <Image src="/p3 (1).png"   fluid />
+                                <Image src="p3 (1).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/p3 (2).png"   fluid />
+                                <Image src="p3 (2).png"   fluid />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image src="/p3(3).gif"   fluid />
+                                <Image src="p3(3).gif"   fluid />
                             </Carousel.Item>
                         </Carousel>
                     </Card.Header>

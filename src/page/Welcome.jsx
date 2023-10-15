@@ -51,7 +51,7 @@ export default function Welcome() {
                             className='input-group mt-3 mx-0'
                         />
                         
-                        <Link to="/panel" className={`btn mt-3 btn-entrance ${name ? 'btn-outline-success' : 'btn-outline-primary disabled'}`}>Let&apos;s go</Link>                         
+                        <Link to="/ryanporto/panel" className={`btn mt-3 btn-entrance ${name ? 'btn-outline-success' : 'btn-outline-primary disabled'}`}>Let&apos;s go</Link>                         
                     </>
                 )}
             </div>
